@@ -1,0 +1,50 @@
+body {
+	background: #333;
+	font-family: 'Indie Flower', cursive;
+}
+
+h1 {
+    font-size: 5rem;
+    color: rgb(195, 75, 75);
+    text-align: center;
+    margin-top: 5rem;
+}
+ul,
+li{
+	color:yellow;
+}
+.natal,
+.novo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dias,
+.horas,
+.minutos,
+.segundos {
+    color: rgba(248, 213, 15, 0.938);
+    font-size: 5rem;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+@media screen and ( max-width: 700px) {
+    h1 {
+        font-size: 1.3rem;
+        color: whitesmoke;
+    }
+    .nata .novo {
+        margin-top: 5rem;
+        justify-content: flex-direction;
+        padding: 3rem;
+    }
+    .dias,
+    .horas,
+    .minutos,
+    .segundos {
+        font-size: 1.2rem;
+        color: rgb(224, 164, 72);
+    }
+}
