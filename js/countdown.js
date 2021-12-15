@@ -1,3 +1,6 @@
+/*
+Criado Por Ihury Ferreira
+*/
 export default class Countdown {
     constructor(futureDate) {
         this.futureDate = futureDate;
